@@ -1,0 +1,180 @@
+/* =========================================
+   AI CAREER COACH - DARK GLASS THEME
+   ========================================= */
+
+.stApp {
+    background: radial-gradient(
+        circle at top left,
+        #1a1a2e,
+        #0f0f1a 70%
+    );
+    color: #e0e0f0;
+}
+
+/* Sidebar */
+section[data-testid="stSidebar"] {
+    background: #12121f;
+}
+
+/* Glass card */
+.glass-card {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    padding: 24px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    margin-bottom: 20px;
+}
+
+/* Headings */
+h1, h2, h3 {
+    background: linear-gradient(
+        90deg,
+        #ff6b81,
+        #a78bfa,
+        #2cb67d
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 800;
+}
+
+/* Normal Streamlit buttons */
+.stButton > button {
+    background: linear-gradient(
+        90deg,
+        #ff6b81,
+        #a78bfa,
+        #2cb67d
+    );
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 10px 24px;
+    font-weight: 600;
+    transition: all 0.25s ease;
+}
+
+/* Button hover */
+.stButton > button:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 24px rgba(167, 139, 250, 0.5);
+}
+
+/* Keyword chips */
+.keyword-chip {
+    display: inline-block;
+    background: rgba(167, 139, 250, 0.15);
+    border: 1px solid #a78bfa;
+    color: #f0e9ff;
+    padding: 6px 14px;
+    border-radius: 20px;
+    margin: 4px;
+    font-size: 14px;
+}
+
+/* Progress bar */
+div[data-testid="stProgress"] > div > div {
+    background: linear-gradient(
+        90deg,
+        #ff6b81,
+        #a78bfa,
+        #2cb67d
+    );
+}
+
+
+/* =========================================
+   LANDING PAGE
+   ========================================= */
+
+/* The whole text + button area */
+.landing-overlay {
+    position: relative;
+    z-index: 10;
+    margin-top: -330px;
+    text-align: center;
+    width: 100%;
+}
+
+/* Main title */
+.landing-title {
+    text-align: center;
+    font-size: 52px;
+    line-height: 1.1;
+    margin: 0;
+    font-weight: 800;
+
+    background: linear-gradient(
+        90deg,
+        #ff6b81,
+        #a78bfa,
+        #2cb67d
+    );
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Subtitle */
+.landing-sub {
+    text-align: center;
+    color: #d5d5e5;
+    font-size: 18px;
+    margin-top: 12px;
+    margin-bottom: 25px;
+}
+
+
+/* Login / Sign Up buttons */
+.landing-overlay .stButton > button {
+    height: 50px;
+    font-size: 16px;
+    border-radius: 12px;
+}
+
+
+/* =========================================
+   AUTH PAGES
+   ========================================= */
+
+.auth-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.auth-card {
+    width: 380px;
+    padding: 32px 28px;
+    text-align: center;
+    border: 1px solid rgba(167, 139, 250, 0.3);
+    box-shadow: 0 0 40px rgba(255, 107, 129, 0.08);
+}
+
+.auth-icon {
+    font-size: 32px;
+    margin-bottom: -8px;
+}
+
+.auth-divider {
+    color: #8888a8;
+    margin: 14px 0;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+
+/* =========================================
+   HIDE STREAMLIT DEFAULT UI
+   ========================================= */
+
+#MainMenu {
+    visibility: hidden;
+}
+
+footer {
+    visibility: hidden;
+}
