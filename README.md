@@ -1,2 +1,7 @@
 # hackathon-project
-we 3 friends r going to the project in this folder :)
+# HireLens AI
+This Project is about Checking the Resume.  
+## Team -
+Member 1 - Pravallika 
+Member 2 - Kavya 
+Member 3- Muskan
